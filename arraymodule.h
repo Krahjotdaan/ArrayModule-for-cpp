@@ -23,9 +23,7 @@ void erase(int[], int&, int);
 
 int count(int[], int, int);
 
-int lenght(int[]);
-
-bool is_equal(int a[], int size_a, int b[], int size_b);
+bool is_equal(int[], int, int[], int);
 
 void rotate(int[], int, int);
 
