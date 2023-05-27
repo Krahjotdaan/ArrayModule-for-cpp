@@ -189,3 +189,14 @@ void append(int array[], int& size, int item) {
     size++;
     array[size - 1] = item;
 }
+
+
+void merge(int array_a[], int& size_a, int array_b[], int size_b) {
+    int tmp = size_a;
+    size_a += size_b;
+    int k = 0;
+    for (int i = tmp; i < size_a; i++) {
+        array_a[i] = array_b[k];
+        k++;
+    }
+}

@@ -30,3 +30,6 @@ void rotate(int[], int, int);
 void sort(int[], int);
 
 void append(int[], int&, int);
+
+int merge(int[], int&, int[], int);
+int deep_merge(int[], int, int[], int);
