@@ -137,7 +137,6 @@ void erase_all(long long[], long long&, long long);
 void erase_all(float[], long long&, float);
 void erase_all(double[], long long&, double);
 
-
 int count(int[], int, int);
 int count(long long[], int, long long);
 int count(float[], int, float);
