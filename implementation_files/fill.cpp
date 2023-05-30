@@ -26,3 +26,27 @@ void fill(double array[], int size, double item = 0) {
         array[i] = item;
     }
 }
+
+void fill(int array[], long long size, int item = 0) {
+    for (long long i = 0; i < size; i++) {
+        array[i] = item;
+    }
+}
+
+void fill(long long array[], long long size, long long item = 0) {
+    for (long long i = 0; i < size; i++) {
+        array[i] = item;
+    }
+}
+
+void fill(float array[], long long size, float item = 0) {
+    for (long long i = 0; i < size; i++) {
+        array[i] = item;
+    }
+}
+
+void fill(double array[], long long size, double item = 0) {
+    for (long long i = 0; i < size; i++) {
+        array[i] = item;
+    }
+}

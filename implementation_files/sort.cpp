@@ -42,3 +42,43 @@ void sort(double array[], int size) {
         }
     }
 }
+
+void sort(int array[], long long size) {
+    for (long long i = 0; i < size - 1; i++) {
+        for (long long j = 0; j < size - 1; j++) {
+            if (array[j] > array[j + 1]) {
+                swap(array[j], array[j + 1]);
+            }
+        }
+    }
+}
+
+void sort(long long array[], long long size) {
+    for (long long i = 0; i < size - 1; i++) {
+        for (long long j = 0; j < size - 1; j++) {
+            if (array[j] > array[j + 1]) {
+                swap(array[j], array[j + 1]);
+            }
+        }
+    }
+}
+
+void sort(float array[], long long size) {
+    for (long long i = 0; i < size - 1; i++) {
+        for (long long j = 0; j < size - 1; j++) {
+            if (array[j] > array[j + 1]) {
+                swap(array[j], array[j + 1]);
+            }
+        }
+    }
+}
+
+void sort(double array[], long long size) {
+    for (long long i = 0; i < size - 1; i++) {
+        for (long long j = 0; j < size - 1; j++) {
+            if (array[j] > array[j + 1]) {
+                swap(array[j], array[j + 1]);
+            }
+        }
+    }
+}

@@ -42,3 +42,43 @@ int count(double array[], int size, double item) {
     }
     return count;
 }
+
+long long count(int array[], long long size, int item) {
+    long long count = 0;
+    for (long long i = 0; i < size; i++) {
+        if (array[i] == item) {
+            count++;
+        }
+    }
+    return count;
+}
+
+long long count(long long array[], long long size, long long item) {
+    long long count = 0;
+    for (long long i = 0; i < size; i++) {
+        if (array[i] == item) {
+            count++;
+        }
+    }
+    return count;
+}
+
+long long count(float array[], long long size, float item) {
+    long long count = 0;
+    for (long long i = 0; i < size; i++) {
+        if (array[i] == item) {
+            count++;
+        }
+    }
+    return count;
+}
+
+long long count(double array[], long long size, double item) {
+    int count = 0;
+    for (long long i = 0; i < size; i++) {
+        if (array[i] == item) {
+            count++;
+        }
+    }
+    return count;
+}

@@ -50,3 +50,51 @@ int find(double array[], int size, double item) {
         }
     }
 }
+
+long long find(int array[], long long size, int item) {
+    for (long long i = 0; i < size; i++) {
+        if (array[i] == item) {
+            return i;
+            break;
+        } 
+        else {
+            return -1;
+        }
+    }
+}
+
+long long find(long long array[], long long size, long long item) {
+    for (long long i = 0; i < size; i++) {
+        if (array[i] == item) {
+            return i;
+            break;
+        } 
+        else {
+            return -1;
+        }
+    }
+}
+
+long long find(float array[], long long size, float item) {
+    for (long long i = 0; i < size; i++) {
+        if (array[i] == item) {
+            return i;
+            break;
+        } 
+        else {
+            return -1;
+        }
+    }
+}
+
+long long find(double array[], long long size, double item) {
+    for (long long i = 0; i < size; i++) {
+        if (array[i] == item) {
+            return i;
+            break;
+        } 
+        else {
+            return -1;
+        }
+    }
+}

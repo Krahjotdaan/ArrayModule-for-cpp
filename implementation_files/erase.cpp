@@ -30,3 +30,31 @@ void erase(double array[], int& size, int position) {
         array[i] = array[i + 1];
     }
 }
+
+void erase(int array[], long long& size, long long position) {
+    size -= 1;
+    for (long long i = position; i < size; i++) {
+        array[i] = array[i + 1];
+    }
+}
+
+void erase(long long array[], long long& size, long long position) {
+    size -= 1;
+    for (long long i = position; i < size; i++) {
+        array[i] = array[i + 1];
+    }
+}
+
+void erase(float array[], long long& size, long long position) {
+    size -= 1;
+    for (long long i = position; i < size; i++) {
+        array[i] = array[i + 1];
+    }
+}
+
+void erase(double array[], long long& size, long long position) {
+    size -= 1;
+    for (long long i = position; i < size; i++) {
+        array[i] = array[i + 1];
+    }
+}

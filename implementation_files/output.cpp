@@ -30,3 +30,31 @@ void print(double array[], int size) {
     }
     cout << "\n";
 }
+
+void print(int array[], long long size) {
+    for (long long i = 0; i < size; i++) {
+        cout << array[i] << " ";
+    }
+    cout << "\n";
+}
+
+void print(long long array[], long long size) {
+    for (long long i = 0; i < size; i++) {
+        cout << array[i] << " ";
+    }
+    cout << "\n";
+}
+
+void print(float array[], long long size) {
+    for (long long i = 0; i < size; i++) {
+        cout << array[i] << " ";
+    }
+    cout << "\n";
+}
+
+void print(double array[], long long size) {
+    for (long long i = 0; i < size; i++) {
+        cout << array[i] << " ";
+    }
+    cout << "\n";
+}

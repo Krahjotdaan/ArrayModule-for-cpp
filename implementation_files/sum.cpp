@@ -34,3 +34,35 @@ double sum(double array[], int size) {
     }
   return sum;
 }
+
+int sum(int array[], long long size) {
+    int sum = 0;
+    for (long long i = 0; i < size; i++) {
+        sum += array[i];
+    }
+  return sum;
+}
+
+long long sum(long long array[], long long size) {
+    long long sum = 0;
+    for (long long i = 0; i < size; i++) {
+        sum += array[i];
+    }
+  return sum;
+}
+
+float sum(float array[], long long size) {
+    float sum = 0;
+    for (long long i = 0; i < size; i++) {
+        sum += array[i];
+    }
+  return sum;
+}
+
+double sum(double array[], long long size) {
+    double sum = 0;
+    for (long long i = 0; i < size; i++) {
+        sum += array[i];
+    }
+  return sum;
+}

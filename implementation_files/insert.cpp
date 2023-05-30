@@ -42,3 +42,43 @@ void insert(double array[], int& size, int position, double item) {
     }
     array[position] = item;
 }
+
+void insert(int array[], long long& size, long long position, int item) {
+    size++;
+    for (long long i = size; i >= position; i--) {
+        int tmp = array[i + 1];
+        array[i + 1] = array[i];
+        array[i + 2] = tmp;
+    }
+    array[position] = item;
+}
+
+void insert(long long array[], long long& size, long long position, long long item) {
+    size++;
+    for (long long i = size; i >= position; i--) {
+        long long tmp = array[i + 1];
+        array[i + 1] = array[i];
+        array[i + 2] = tmp;
+    }
+    array[position] = item;
+}
+
+void insert(float array[], long long& size, long long position, float item) {
+    size++;
+    for (long long i = size; i >= position; i--) {
+        float tmp = array[i + 1];
+        array[i + 1] = array[i];
+        array[i + 2] = tmp;
+    }
+    array[position] = item;
+}
+
+void insert(double array[], long long& size, long long position, double item) {
+    size++;
+    for (long long i = size; i >= position; i--) {
+        double tmp = array[i + 1];
+        array[i + 1] = array[i];
+        array[i + 2] = tmp;
+    }
+    array[position] = item;
+}

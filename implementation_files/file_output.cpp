@@ -35,3 +35,35 @@ void print(double array[], int size, ofstream&) {
     }
     file << "\n";
 }
+
+void print(int array[], long long size, ofstream&) {
+    ofstream file("output.txt");
+    for (long long i = 0; i < size; i++) {
+        file << array[i] << " ";
+    }
+    file << "\n";
+}
+
+void print(long long array[], long long size, ofstream&) {
+    ofstream file("output.txt");
+    for (long long i = 0; i < size; i++) {
+        file << array[i] << " ";
+    }
+    file << "\n";
+}
+
+void print(float array[], long long size, ofstream&) {
+    ofstream file("output.txt");
+    for (long long i = 0; i < size; i++) {
+        file << array[i] << " ";
+    }
+    file << "\n";
+}
+
+void print(double array[], long long size, ofstream&) {
+    ofstream file("output.txt");
+    for (long long i = 0; i < size; i++) {
+        file << array[i] << " ";
+    }
+    file << "\n";
+}
