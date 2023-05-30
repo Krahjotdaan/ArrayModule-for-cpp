@@ -128,6 +128,16 @@ void erase_by_value(long long[], long long&, long long, long long);
 void erase_by_value(float[], long long&, float, long long);
 void erase_by_value(double[], long long&, double, long long);
 
+void erase_all(int[], int&, int);
+void erase_all(long long[], int&, long long);
+void erase_all(float[], int&, float);
+void erase_all(double[], int&, double);
+void erase_all(int[], long long&, int);
+void erase_all(long long[], long long&, long long);
+void erase_all(float[], long long&, float);
+void erase_all(double[], long long&, double);
+
+
 int count(int[], int, int);
 int count(long long[], int, long long);
 int count(float[], int, float);
