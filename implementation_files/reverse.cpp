@@ -3,6 +3,9 @@
 
 using namespace std;
 
+/// @brief reversing of array
+/// @param array source array
+/// @param size size of array
 void reverse(int array[], int size) {
     int s = size - 1;
     for (int i = 0; i < size / 2; i++) {
@@ -13,6 +16,9 @@ void reverse(int array[], int size) {
     }
 }
 
+/// @brief reversing of array
+/// @param array source array
+/// @param size size of array
 void reverse(long long array[], int size) {
     int s = size - 1;
     for (int i = 0; i < size / 2; i++) {
@@ -23,6 +29,9 @@ void reverse(long long array[], int size) {
     }
 }
 
+/// @brief reversing of array
+/// @param array source array
+/// @param size size of array
 void reverse(float array[], int size) {
     int s = size - 1;
     for (int i = 0; i < size / 2; i++) {
@@ -33,6 +42,9 @@ void reverse(float array[], int size) {
     }
 }
 
+/// @brief reversing of array
+/// @param array source array
+/// @param size size of array
 void reverse(double array[], int size) {
     int s = size - 1;
     for (int i = 0; i < size / 2; i++) {
@@ -43,6 +55,9 @@ void reverse(double array[], int size) {
     }
 }
 
+/// @brief reversing of array
+/// @param array source array
+/// @param size size of array
 void reverse(int array[], long long size) {
     long long s = size - 1;
     for (long long i = 0; i < size / 2; i++) {
@@ -53,6 +68,9 @@ void reverse(int array[], long long size) {
     }
 }
 
+/// @brief reversing of array
+/// @param array source array
+/// @param size size of array
 void reverse(long long array[], long long size) {
     long long s = size - 1;
     for (int i = 0; i < size / 2; i++) {
@@ -63,6 +81,9 @@ void reverse(long long array[], long long size) {
     }
 }
 
+/// @brief reversing of array
+/// @param array source array
+/// @param size size of array
 void reverse(float array[], long long size) {
     long long s = size - 1;
     for (int i = 0; i < size / 2; i++) {
@@ -73,6 +94,9 @@ void reverse(float array[], long long size) {
     }
 }
 
+/// @brief reversing of array
+/// @param array source array
+/// @param size size of array
 void reverse(double array[], long long size) {
     long long s = size - 1;
     for (int i = 0; i < size / 2; i++) {

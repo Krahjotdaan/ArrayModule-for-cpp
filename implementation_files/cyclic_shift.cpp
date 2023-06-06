@@ -3,6 +3,11 @@
 
 using namespace std;
 
+/// @brief function of cyclic shift
+/// @details if value over zero, array will move to right; if value under zero, array will move to left
+/// @param array source array
+/// @param size size of array
+/// @param value amount of shifts
 void shift(int array[], int size, int value) {
     if (value > 0) {
         for (int i = 0; i < value; i++) {
@@ -24,6 +29,11 @@ void shift(int array[], int size, int value) {
     }
 }
 
+/// @brief function of cyclic shift
+/// @details if value over zero, array will move to right; if value under zero, array will move to left
+/// @param array source array
+/// @param size size of array
+/// @param value amount of shifts
 void shift(long long array[], int size, int value) {
     if (value > 0) {
         for (int i = 0; i < value; i++) {
@@ -45,6 +55,11 @@ void shift(long long array[], int size, int value) {
     }
 }
 
+/// @brief function of cyclic shift
+/// @details if value over zero, array will move to right; if value under zero, array will move to left
+/// @param array source array
+/// @param size size of array
+/// @param value amount of shifts
 void shift(float array[], int size, int value) {
     if (value > 0) {
         for (int i = 0; i < value; i++) {
@@ -66,6 +81,11 @@ void shift(float array[], int size, int value) {
     }
 }
 
+/// @brief function of cyclic shift
+/// @details if value over zero, array will move to right; if value under zero, array will move to left
+/// @param array source array
+/// @param size size of array
+/// @param value amount of shifts
 void shift(double array[], int size, int value) {
     if (value > 0) {
         for (int i = 0; i < value; i++) {
@@ -87,6 +107,11 @@ void shift(double array[], int size, int value) {
     }
 }
 
+/// @brief function of cyclic shift
+/// @details if value over zero, array will move to right; if value under zero, array will move to left
+/// @param array source array
+/// @param size size of array
+/// @param value amount of shifts
 void shift(int array[], long long size, int value) {
     if (value > 0) {
         for (int i = 0; i < value; i++) {
@@ -108,6 +133,11 @@ void shift(int array[], long long size, int value) {
     }
 }
 
+/// @brief function of cyclic shift
+/// @details if value over zero, array will move to right; if value under zero, array will move to left
+/// @param array source array
+/// @param size size of array
+/// @param value amount of shifts
 void shift(long long array[], long long size, int value) {
     if (value > 0) {
         for (int i = 0; i < value; i++) {
@@ -129,6 +159,11 @@ void shift(long long array[], long long size, int value) {
     }
 }
 
+/// @brief function of cyclic shift
+/// @details if value over zero, array will move to right; if value under zero, array will move to left
+/// @param array source array
+/// @param size size of array
+/// @param value amount of shifts
 void shift(float array[], long long size, int value) {
     if (value > 0) {
         for (int i = 0; i < value; i++) {
@@ -150,6 +185,11 @@ void shift(float array[], long long size, int value) {
     }
 }
 
+/// @brief function of cyclic shift
+/// @details if value over zero, array will move to right; if value under zero, array will move to left
+/// @param array source array
+/// @param size size of array
+/// @param value amount of shifts
 void shift(double array[], long long size, int value) {
     if (value > 0) {
         for (int i = 0; i < value; i++) {

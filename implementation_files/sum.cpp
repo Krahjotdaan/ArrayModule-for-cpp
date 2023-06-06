@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/// @brief sum of elements of array
+/// @param array source array
+/// @param size size of array
+/// @return sum of elements of array
 int sum(int array[], int size) {
     int sum = 0;
     for (int i = 0; i < size; i++) {
@@ -11,6 +15,10 @@ int sum(int array[], int size) {
   return sum;
 }
 
+/// @brief sum of elements of array
+/// @param array source array
+/// @param size size of array
+/// @return sum of elements of array
 long long sum(long long array[], int size) {
     long long sum = 0;
     for (int i = 0; i < size; i++) {
@@ -19,6 +27,10 @@ long long sum(long long array[], int size) {
   return sum;
 }
 
+/// @brief sum of elements of array
+/// @param array source array
+/// @param size size of array
+/// @return sum of elements of array
 float sum(float array[], int size) {
     float sum = 0;
     for (int i = 0; i < size; i++) {
@@ -27,6 +39,10 @@ float sum(float array[], int size) {
   return sum;
 }
 
+/// @brief sum of elements of array
+/// @param array source array
+/// @param size size of array
+/// @return sum of elements of array
 double sum(double array[], int size) {
     double sum = 0;
     for (int i = 0; i < size; i++) {
@@ -35,6 +51,10 @@ double sum(double array[], int size) {
   return sum;
 }
 
+/// @brief sum of elements of array
+/// @param array source array
+/// @param size size of array
+/// @return sum of elements of array
 int sum(int array[], long long size) {
     int sum = 0;
     for (long long i = 0; i < size; i++) {
@@ -43,6 +63,10 @@ int sum(int array[], long long size) {
   return sum;
 }
 
+/// @brief sum of elements of array
+/// @param array source array
+/// @param size size of array
+/// @return sum of elements of array
 long long sum(long long array[], long long size) {
     long long sum = 0;
     for (long long i = 0; i < size; i++) {
@@ -51,6 +75,10 @@ long long sum(long long array[], long long size) {
   return sum;
 }
 
+/// @brief sum of elements of array
+/// @param array source array
+/// @param size size of array
+/// @return sum of elements of array
 float sum(float array[], long long size) {
     float sum = 0;
     for (long long i = 0; i < size; i++) {
@@ -59,6 +87,10 @@ float sum(float array[], long long size) {
   return sum;
 }
 
+/// @brief sum of elements of array
+/// @param array source array
+/// @param size size of array
+/// @return sum of elements of array
 double sum(double array[], long long size) {
     double sum = 0;
     for (long long i = 0; i < size; i++) {
