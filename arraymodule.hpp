@@ -190,3 +190,30 @@ void merge(int[], long long&, int[], long long);
 void merge(long long[], long long&, long long[], long long);
 void merge(float[], long long&, float[], long long);
 void merge(double[], long long&, double[], long long);
+
+void replace_by_position(int[], int, int, int);
+void replace_by_position(long long[], int, int, long long);
+void replace_by_position(float[], int, int, float);
+void replace_by_position(double[], int, int, double);
+void replace_by_position(int[], long long, long long, int);
+void replace_by_position(long long[], long long, long long, long long);
+void replace_by_position(float[], long long, long long, float);
+void replace_by_position(double[], long long, long long, double);
+
+void replace_by_value(int[], int, int, int, int);
+void replace_by_value(long long[], int, long long, long long, int);
+void replace_by_value(float[], int, float, float, int);
+void replace_by_value(double[], int, double, double, int);
+void replace_by_value(int[], long long, int, int, long long);
+void replace_by_value(long long[], long long, long long, long long, long long);
+void replace_by_value(float[], long long, float, float, long long);
+void replace_by_value(double[], long long, double, double, long long);
+
+void replace_all(int[], int, int, int);
+void replace_all(long long[], int, long long, long long);
+void replace_all(float[], int, float, float);
+void replace_all(double[], int, double, double);
+void replace_all(int[], long long, int, int);
+void replace_all(long long[], long long, long long, long long);
+void replace_all(float[], long long, float, float);
+void replace_all(double[], long long, double, double);
