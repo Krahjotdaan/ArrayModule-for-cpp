@@ -2,14 +2,14 @@
 #include <fstream>
 using namespace std;
 
-void fill(int[], int, int);
-void fill(long long[], int, long long);
-void fill(float[], int, float);
-void fill(double[], int, double);
-void fill(int[], long long, int);
-void fill(long long[], long long, long long);
-void fill(float[], long long, float);
-void fill(double[], long long, double);
+void fill(int[], int, int = 0);
+void fill(long long[], int, long long = 0);
+void fill(float[], int, float = 0);
+void fill(double[], int, double = 0);
+void fill(int[], long long, int = 0);
+void fill(long long[], long long, long long = 0);
+void fill(float[], long long, float = 0);
+void fill(double[], long long, double = 0);
 
 void read(int[], int);
 void read(long long[], int);
@@ -200,14 +200,14 @@ void replace_by_position(long long[], long long, long long, long long);
 void replace_by_position(float[], long long, long long, float);
 void replace_by_position(double[], long long, long long, double);
 
-void replace_by_value(int[], int, int, int, int);
-void replace_by_value(long long[], int, long long, long long, int);
-void replace_by_value(float[], int, float, float, int);
-void replace_by_value(double[], int, double, double, int);
-void replace_by_value(int[], long long, int, int, long long);
-void replace_by_value(long long[], long long, long long, long long, long long);
-void replace_by_value(float[], long long, float, float, long long);
-void replace_by_value(double[], long long, double, double, long long);
+void replace_by_value(int[], int, int, int, int = 1);
+void replace_by_value(long long[], int, long long, long long, int = 1);
+void replace_by_value(float[], int, float, float, int = 1);
+void replace_by_value(double[], int, double, double, int = 1);
+void replace_by_value(int[], long long, int, int, long long = 1);
+void replace_by_value(long long[], long long, long long, long long, long long = 1);
+void replace_by_value(float[], long long, float, float, long long = 1);
+void replace_by_value(double[], long long, double, double, long long = 1);
 
 void replace_all(int[], int, int, int);
 void replace_all(long long[], int, long long, long long);

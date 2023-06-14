@@ -8,7 +8,7 @@ using namespace std;
 /// @param size size of array
 /// @param value value of removed element
 /// @param occurrence occurrence of removed element, by default 1
-void erase_by_value(int array[], int& size, int value, int occurrence = 1) {
+void erase_by_value(int array[], int& size, int value, int occurrence) {
     size--;
     int s = 0;
     for (int i = 0; i < size; i++) {
@@ -28,7 +28,7 @@ void erase_by_value(int array[], int& size, int value, int occurrence = 1) {
 /// @param size size of array
 /// @param value value of removed element
 /// @param occurrence occurrence of removed element, by default 1
-void erase_by_value(long long array[], int& size, long long value, int occurrence = 1) {
+void erase_by_value(long long array[], int& size, long long value, int occurrence) {
     size--;
     int s = 0;
     for (int i = 0; i < size; i++) {
@@ -48,7 +48,7 @@ void erase_by_value(long long array[], int& size, long long value, int occurrenc
 /// @param size size of array
 /// @param value value of removed element
 /// @param occurrence occurrence of removed element, by default 1
-void erase_by_value(float array[], int& size, float value, int occurrence = 1) {
+void erase_by_value(float array[], int& size, float value, int occurrence) {
     size--;
     int s = 0;
     for (int i = 0; i < size; i++) {
@@ -68,7 +68,7 @@ void erase_by_value(float array[], int& size, float value, int occurrence = 1) {
 /// @param size size of array
 /// @param value value of removed element
 /// @param occurrence occurrence of removed element, by default 1
-void erase_by_value(double array[], int& size, double value, int occurrence = 1) {
+void erase_by_value(double array[], int& size, double value, int occurrence) {
     size--;
     int s = 0;
     for (int i = 0; i < size; i++) {
@@ -88,7 +88,7 @@ void erase_by_value(double array[], int& size, double value, int occurrence = 1)
 /// @param size size of array
 /// @param value value of removed element
 /// @param occurrence occurrence of removed element, by default 1
-void erase_by_value(int array[], long long& size, int value, long long occurrence = 1) {
+void erase_by_value(int array[], long long& size, int value, long long occurrence) {
     size--;
     long long s = 0;
     for (long long i = 0; i < size; i++) {
@@ -108,7 +108,7 @@ void erase_by_value(int array[], long long& size, int value, long long occurrenc
 /// @param size size of array
 /// @param value value of removed element
 /// @param occurrence occurrence of removed element, by default 1
-void erase_by_value(long long array[], long long& size, long long value, long long occurrence = 1) {
+void erase_by_value(long long array[], long long& size, long long value, long long occurrence) {
     size--;
     long long s = 0;
     for (long long i = 0; i < size; i++) {
@@ -128,7 +128,7 @@ void erase_by_value(long long array[], long long& size, long long value, long lo
 /// @param size size of array
 /// @param value value of removed element
 /// @param occurrence occurrence of removed element, by default 1
-void erase_by_value(float array[], long long& size, float value, long long occurrence = 1) {
+void erase_by_value(float array[], long long& size, float value, long long occurrence) {
     size--;
     long long s = 0;
     for (long long i = 0; i < size; i++) {
@@ -148,7 +148,7 @@ void erase_by_value(float array[], long long& size, float value, long long occur
 /// @param size size of array
 /// @param value value of removed element
 /// @param occurrence occurrence of removed element, by default 1
-void erase_by_value(double array[], long long& size, double value, long long occurrence = 1) {
+void erase_by_value(double array[], long long& size, double value, long long occurrence) {
     size--;
     long long s = 0;
     for (long long i = 0; i < size; i++) {
