@@ -217,3 +217,12 @@ void replace_all(int[], long long, int, int);
 void replace_all(long long[], long long, long long, long long);
 void replace_all(float[], long long, float, float);
 void replace_all(double[], long long, double, double);
+
+int pop(int[], int&, int);
+//long long pop(long long[], int&, int);
+//float pop(float[], int&, int);
+//double pop(double[], int&, int);
+//int pop(int[], long long&, long long);
+//long long pop(long long[], long long&, long long);
+//float pop(float[], long long&, long long);
+//double pop(double[], long long&, long long);
