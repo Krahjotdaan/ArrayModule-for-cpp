@@ -1,3 +1,6 @@
+// Created by Ostapenko Artem
+// GitHub account https://github.com/Krahjotdaan
+// This repository licensed as Open Source under MIT License
 #pragma once
 #include <fstream>
 using namespace std;
