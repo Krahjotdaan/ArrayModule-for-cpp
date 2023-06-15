@@ -91,7 +91,7 @@ double pop(double array[], int& size, int position) {
 /// @param size size of array
 /// @param position index of removed element, by default -1
 /// @return value of removed element, if position is default, function will erase and return last element of array
-int pop(int array[], int& size, int position) {
+int pop(int array[], long long& size, long long position) {
     int result;
     if (position == -1) {
         result = array[size - 1];
